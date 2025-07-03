@@ -1,6 +1,6 @@
 # ---- Dockerfile ----
 # 选用体积小的官方 Node 运行时镜像
-FROM node:20-alpine
+FROM node:22-alpine
 
 # 建议把时区调到 Asia/Taipei（可选）
 ENV TZ=Asia/Taipei
